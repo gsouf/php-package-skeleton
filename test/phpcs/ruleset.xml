@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ruleset name="UForm">
+<ruleset name="custom">
 
-    <file>./src/UForm</file>
+    <file>./src/</file>
     <file>./test/suites</file>
 
     <!--The complete PSR-2 ruleset-->
