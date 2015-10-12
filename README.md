@@ -2,9 +2,9 @@ This is a default skeleton for php library.
 
 Steps to setup :
 
-- run ``composer create-project gsouf/skeleton``
+- run ``composer create-project gsouf/skeleton path dev-master --no-install``
 - update composer.json
-- run ``composer update``
+- run ``composer install``
 - setup travis with the codeclimate token
 - update ``src/Library.php``
 - write code in ``src``
