@@ -1,0 +1,38 @@
+{
+
+  "name": "gsouf/skeleton",
+  "description": "",
+  "type": "library",
+  "keywords": [],
+  "homepage": "https://github.com/gsouf/php-package-skeleton",
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "Soufiane GHZAL",
+      "homepage": "https://github.com/gsouf"
+    }
+  ],
+
+  "autoload":{
+    "psr-4" : {
+      "{{PROJECT_NAME}}\\"   :   "src/"
+    }
+  },
+
+  "autoload-dev":{
+    "psr-4" : {
+      "{{PROJECT_NAME}}\\Test\\"   :   "test/suites"
+    }
+  },
+
+  "require": {
+    "php": ">=5.4.0"
+  },
+
+  "require-dev":{
+    "phpunit/phpunit": "4.1.2",
+    "codeclimate/php-test-reporter": "dev-master",
+    "squizlabs/php_codesniffer": "~2"
+  }
+}
