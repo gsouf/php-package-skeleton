@@ -16,6 +16,6 @@ matrix:
 
 before_script:
   - travis_retry composer self-update
-  - travis_retry composer install --dev
+  - travis_retry composer update --dev --prefer-lowest --prefer-dist
 
 script: ./test/bin/ci.bash summary
