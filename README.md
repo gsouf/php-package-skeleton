@@ -3,7 +3,7 @@ This is a default skeleton for php library.
 Steps to setup :
 
 - run ``composer create-project --no-install --prefer-source gsouf/skeleton path``
-- update composer.json
+- Edit ``composer.json``
 - run ``composer install``
 - setup travis with the codeclimate token
 - update ``src/Library.php``
