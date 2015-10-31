@@ -4,7 +4,7 @@ Steps to setup :
 
 - run ``composer create-project --no-install --prefer-source gsouf/skeleton path``
 - Edit ``composer.json``
-- run ``composer install``
+- run ``composer update``
 - setup travis with the codeclimate token
 - update ``src/Library.php``
 - write code in ``src``
