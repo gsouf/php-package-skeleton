@@ -28,5 +28,5 @@ Steps to setup
 - update ``tests/suites/Library.php``
 - write tests in ``test/suites``
 - update ``CONTRIBUTING.md``
-- update readme
+- update ``README.md``
 - push everything
