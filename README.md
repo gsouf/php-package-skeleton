@@ -1,4 +1,17 @@
-This is a default skeleton for php library.
+This is a default skeleton for php library. Features:
+
+
+* phpunit structure
+* preset composer
+* Fair Licence
+* phpcs for psr-2 + phpcbf for psr-2 commands
+* CI build configured with
+    * travis-ci configured
+    * code climate configured with code coverage for master branch only
+* editorconfig default 
+* gitinogre default
+* php minal version is 5.5.0
+
 
 Steps to setup :
 
@@ -11,5 +24,5 @@ Steps to setup :
 - update ``tests/suites/Library.php``
 - write tests in ``test/suites``
 - update ``CONTRIBUTING.md``
-- update me
+- update readme
 - push everything
