@@ -1,4 +1,4 @@
-This is a default skeleton for php library. 
+This my personal skeleton for a new php library. 
 
 Features
 --------
