@@ -9,6 +9,7 @@ Features
 * phpcs for psr-2 + phpcbf for psr-2 commands
 * CI build configured with
     * travis-ci configured
+    * composer and xdebug fix
     * code climate configured with code coverage for master branch only
 * editorconfig default 
 * gitinogre default
