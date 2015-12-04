@@ -1,5 +1,7 @@
-This is a default skeleton for php library. Features:
+This is a default skeleton for php library. 
 
+Features
+--------
 
 * phpunit structure
 * preset composer
@@ -13,7 +15,8 @@ This is a default skeleton for php library. Features:
 * php minal version is 5.5.0
 
 
-Steps to setup :
+Steps to setup
+--------------
 
 - run ``composer create-project --no-install --prefer-source gsouf/skeleton path``
 - Edit ``composer.json``
