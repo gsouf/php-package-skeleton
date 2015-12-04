@@ -17,5 +17,6 @@ before_script:
   - phpenv config-rm xdebug.ini
   - travis_retry composer self-update
   - travis_retry composer update --dev --prefer-dist
+  - echo 'zend_extension=xdebug.so' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
 
 script: ./test/bin/ci.bash summary
