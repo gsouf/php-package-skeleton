@@ -5,8 +5,6 @@ set -e
 SCRIPTFILE=$(readlink -f "$0")
 SCRIPTDIR=$(dirname "$SCRIPTFILE")
 
-alias phpunit='php -dzend_extension=xdebug.so $(which phpunit)'
-
 phpunit -c "$SCRIPTDIR/../../phpunit.dist.xml" --coverage-clover "$SCRIPTDIR/../../build/logs/clover.xml"
 
 $SCRIPTDIR/phpcs.bash $1
