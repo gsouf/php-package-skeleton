@@ -7,19 +7,26 @@
     <!--The complete PSR-2 ruleset-->
     <rule ref="PSR2"/>
 
-    <!-- Arrays -->
+    <!-- Short array only -->
     <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
     <rule ref="Squiz.Arrays.ArrayBracketSpacing"/>
-    
+
     <!-- Long lines do no apply on test files -->
     <rule ref="Generic.Files.LineLength.TooLong">
         <exclude-pattern>./test/*</exclude-pattern>
     </rule>
+
     <!-- When test method have weird signatures -->
     <rule ref="PEAR.Functions.ValidDefaultValue.NotAtEnd">
         <exclude-pattern>./test/*</exclude-pattern>
     </rule>
 
+    <!-- By default we use single quote only. Double quotes come when a variable is inside -->
+    <rule ref="Squiz.Strings.DoubleQuoteUsage">
+        <exclude name="Squiz.Strings.DoubleQuoteUsage.ContainsVar"/>
+    </rule>
 
+    <!-- We dont want commented code -->
+    <rule ref="Squiz.PHP.CommentedOutCode"/>
 
 </ruleset>
