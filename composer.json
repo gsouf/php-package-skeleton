@@ -16,13 +16,13 @@
 
   "autoload":{
     "psr-4" : {
-      "{{PROJECT_NAME}}\\"   :   "src/"
+      "{{PROJECT_NAME}}\\": "src/"
     }
   },
 
   "autoload-dev":{
     "psr-4" : {
-      "{{PROJECT_NAME}}\\Test\\"   :   "test/suites"
+      "{{PROJECT_NAME}}\\Test\\": "test/suites"
     }
   },
 
