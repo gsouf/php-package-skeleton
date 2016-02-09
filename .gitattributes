@@ -8,3 +8,5 @@
 .travis.yml         export-ignore
 phpunit.dist.xml    export-ignore
 phpcs.xml           export-ignore
+
+/test/resources/*   linguist-vendored
