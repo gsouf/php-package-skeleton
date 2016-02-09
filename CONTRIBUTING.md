@@ -7,15 +7,20 @@ Tests
 -----
 
 All contributions must be tested following as much as possible the current test structure:
-- One class = one test file in ``test/suites`` and the class must be annotated with ``@covers``
-- One class method = one method in the test class
-- Complex tests must be placed in the ``scenario`` directory
+- One class = one test file in ``test/suites`` and the class must be annotated with ``@covers``.
+- One class method = one method in the test class.
+- Complex tests must be placed in the ``scenario`` directory.
 
-Look at current tests in ``test/suites`` for more details
+Look at current tests in ``test/suites`` for more details.
 
+Conding Standards
+-----------------
 
-Coding standards
-----------------
+The code follow the PSR-2 coding standards
 
-- Check standards: run ``./test/bin/phpcs.bash``
-- fix standards: run ``./test/bin/phpcbf.bash``
+Tools
+-----
+
+- run test suit: ``composer test``
+- Check Coding standards: ``composer cscheck``
+- auto fix standards: ``.composer csfix``
