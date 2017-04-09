@@ -1,7 +1,13 @@
 CONTRIBUTING
 ============
 
-Any contribution is welcome.
+Any contribution is welcome and encouraged.
+
+Issues
+------
+
+When reporting an issue, try to give as much details as possible. Ability to reproduce the issue is a priority.
+If you give an example that reproduces your issue you will have more chances to get it fixed.
 
 Tests
 -----
@@ -21,6 +27,6 @@ The code follow the PSR-2 coding standards
 Tools
 -----
 
-- run test suit: ``composer test``
+- Run test suit: ``composer test``
 - Check Coding standards: ``composer cscheck``
-- auto fix standards: ``.composer csfix``
+- Auto fix standards: ``.composer csfix``
