@@ -13,7 +13,7 @@ Features
     * code climate configured with code coverage for master branch only
 * editorconfig default 
 * gitinogre default
-* php minal version is 5.5.0
+* php minal version is 5.6
 
 
 Steps to setup
